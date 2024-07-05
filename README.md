@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For part 2 of the test I created a new table to save a relationship between states and products that are not allowed in the state.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For part 3 of the test I also created a new table to save a relationship between states and products, but this time with a new field minimum_age to save the minimum age for the product on that state.
