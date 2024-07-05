@@ -22,3 +22,5 @@ end
 10.times do
   Patient.create(full_name: Faker::Superhero.name, email: Faker::Internet.email, date_of_birth: Faker::Date.birthday(min_age: 10, max_age: 99), state: State.find(rand(52)))
 end
+
+StateException.create(state: State.first, product: Product.last)
